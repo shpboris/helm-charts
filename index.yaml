@@ -9,6 +9,6 @@ entries:
     name: usersapi-chart
     type: application
     urls:
-    - https://github.com/shpboris/helm-charts/usersapi-chart-0.1.0.tgz
+    - usersapi-chart-0.1.0.tgz
     version: 0.1.0
 generated: "2022-07-08T23:43:01.9083955+03:00"
