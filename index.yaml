@@ -3,7 +3,7 @@ entries:
   usersapi-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-07-08T23:43:02.1264091+03:00"
+    created: "2022-07-09T16:29:47.369004+03:00"
     description: A Helm chart for installing usersapi REST server
     digest: 77fa21036e623477083fb118c078ab37aab697a69c7845c218a56ae90ecf02c3
     name: usersapi-chart
@@ -11,4 +11,19 @@ entries:
     urls:
     - https://shpboris.github.io/helm-charts/usersapi-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2022-07-08T23:43:01.9083955+03:00"
+  usersreports-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-07-09T16:29:47.9084014+03:00"
+    dependencies:
+    - name: usersapi-chart
+      repository: https://shpboris.github.io/helm-charts
+      version: 0.1.0
+    description: A Helm chart for installing usersreports REST server
+    digest: ee9cd6ffabc1bef9ba4846d3b458e8b7fb776b4844bdaeea5869e92cb04426dc
+    name: usersreports-chart
+    type: application
+    urls:
+    - https://shpboris.github.io/helm-charts/usersreports-chart-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-07-09T16:29:47.1051454+03:00"
